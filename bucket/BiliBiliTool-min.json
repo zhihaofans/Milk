@@ -1,0 +1,23 @@
+{
+    "version": "1.1.5",
+    "description": ".Net 5 编写的B站（哔哩哔哩）任务工具：每日自动登录、观看、分享、投币视频，获取每日任务的满额经验，轻松升级Level 6，实现自动领取大会员权益、月底自动为自己充电等功能。",
+    "homepage": "https://github.com/RayWangQvQ/BiliBiliTool",
+    "license": "MIT",
+    "url": "https://github.com/RayWangQvQ/BiliBiliTool/releases/download/1.1.5/bilibili-tool-v1.1.5-net5-dependent.zip",
+    "extract_dir": "net5-dependent",
+    "hash": "sha256:4daac0986883525a385caec872b32bf881246eb11486edb870ccb89e64108dcb",
+    "suggest": {
+        "Microsoft .NET 5.0 Desktop Runtime": [
+            "PasserbyZ/DotNetDesktopRuntime-installer"
+        ]
+    },
+    "persist": [
+        "Logs"
+    ],
+    "shortcuts": [
+        [
+            "start.bat",
+            "启动 BiliBiliTool精简版"
+        ]
+    ]
+}
