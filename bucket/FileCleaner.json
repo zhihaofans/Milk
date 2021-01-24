@@ -1,0 +1,21 @@
+{
+    "version": "1.2.0",
+    "description": "命令行文件去重工具",
+    "homepage": "https://github.com/tanganyu1114/FileCleaner",
+    "license": "MIT",
+    "url": "https://github.com/tanganyu1114/FileCleaner/releases/download/release-v1.2.0/win_filecleaner_v1.2.0.exe#/FileCleaner.exe",
+    "hash": "sha256:689f7624df5309dde843ecece75a905d7a7f74c6f752bc285590febaaac885d7",
+    
+    "bin": [
+        [
+            "FileCleaner.exe",
+            "FileCleaner"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "FileCleaner.exe",
+            "FileCleaner"
+        ]
+    ]
+}
