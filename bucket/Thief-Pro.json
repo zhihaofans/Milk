@@ -1,0 +1,29 @@
+{
+    "version": "5.2",
+    "description": "Thief Pro是一款基于Electron开发的跨平台收费多功能(真正创新的)摸鱼软件，为了上班族打造的上班必备神器，使用此软件可以让上班倍感轻松，远离ICU。",
+    "homepage": "https://thief.im/",
+    "architecture": {
+        "64bit": {
+            "url": "https://thief-1253132429.cos.ap-beijing.myqcloud.com/thief/thief-pro-5.2-win64.zip",
+            "hash": "sha256:68036376c94b310b602dbd901f6c0f53894d5ab5608ae219e8008aaad4ef2aaf",
+            "extract_dir": "thief-pro-5.2-win64",
+        },
+        "32bit": {
+            "url": "https://thief-1253132429.cos.ap-beijing.myqcloud.com/thief/thief-pro-5.2-win32.zip",
+            "hash": "sha256:a64ca50d7bb049be2cb534f10b0972b347d5ae6ecdf3d2cc311ddcf3d19feb11"         
+        },
+        "extract_dir": "thief-pro-5.2-win32",
+    },
+    "shortcuts": [
+        [
+            "thief.exe",
+            "Thief Pro"
+        ]
+    ],
+    "bin": [
+        [
+            "thief.exe",
+            "thief"
+        ]
+    ]
+}
