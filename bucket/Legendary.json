@@ -1,6 +1,7 @@
 {
     "version": "0.20.6",
     "description": "A free and open-source Epic Games Launcher alternative",
+    "license": "GPL-3.0-only",
     "homepage": "https://github.com/derrod/legendary",
     "url": "https://github.com/derrod/legendary/releases/download/0.20.6/legendary.exe",
     "hash": "sha256:1d8d148a39f8a1af30ca270251aa7a999ba30c474bbfc79274399cf5b293403f",
