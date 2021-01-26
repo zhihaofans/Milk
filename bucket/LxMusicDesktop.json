@@ -1,0 +1,23 @@
+{
+    "version": "1.6.1",
+    "description": "一个基于 Electron + Vue 开发的音乐软件。",
+    "homepage": "https://github.com/lyswhut/lx-music-desktop",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.6.1/lx-music-desktop-v1.6.1-win_x64-green.7z",
+            "hash": "sha256:d8c84ac7ccb530ba1af708db6389445dc93ee19d3d36f78ecba32bc448b2bbfb"
+
+        },
+        "32bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.6.1/lx-music-desktop-v1.6.1-win_x86-green.7z",
+            "hash": "sha256:93886c4525f670f84047fd08129e1c11dd78077f5387056c53c8d620d5e203d4"
+        }
+    },
+    "shortcuts": [
+        [
+            "lx-music-desktop.exe",
+            "洛雪音乐助手"
+        ]
+    ]
+}
