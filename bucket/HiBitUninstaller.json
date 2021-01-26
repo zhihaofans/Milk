@@ -9,7 +9,8 @@
             "HiBitUninstaller-Portable.exe",
             "HiBit Uninstaller"
         ]
-    ],"bin": [
+    ],
+    "bin": [
         [
             "HiBitUninstaller-Portable.exe",
             "HiBitUninstaller"
