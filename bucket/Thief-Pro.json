@@ -10,9 +10,9 @@
         },
         "32bit": {
             "url": "https://thief-1253132429.cos.ap-beijing.myqcloud.com/thief/thief-pro-5.2-win32.zip",
-            "hash": "sha256:a64ca50d7bb049be2cb534f10b0972b347d5ae6ecdf3d2cc311ddcf3d19feb11"         
-        },
-        "extract_dir": "thief-pro-5.2-win32",
+            "hash": "sha256:a64ca50d7bb049be2cb534f10b0972b347d5ae6ecdf3d2cc311ddcf3d19feb11",
+            "extract_dir": "thief-pro-5.2-win32"
+        }
     },
     "shortcuts": [
         [

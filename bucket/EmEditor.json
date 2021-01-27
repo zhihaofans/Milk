@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://emeditor.blob.core.windows.net/emed64_20.4.4_portable.zip",
-            "hash": "sha256:855d9796935b9e686fcbe57faff5159b51bd8c092ea8b73481b4f8016c43698b",
+            "hash": "sha256:855d9796935b9e686fcbe57faff5159b51bd8c092ea8b73481b4f8016c43698b"
         },
         "32bit": {
             "url": "https://emeditor.blob.core.windows.net/emed32_20.4.4_portable.zip",
-            "hash": "sha256:9dc34ff8ccbefd5126394534199d5d86c968d10e5b7131a8abfb57207d597223",
+            "hash": "sha256:9dc34ff8ccbefd5126394534199d5d86c968d10e5b7131a8abfb57207d597223"
         }
     },
     "persist": [
