@@ -6,7 +6,7 @@
         "64bit": {
             "url": "https://thief-1253132429.cos.ap-beijing.myqcloud.com/thief/thief-pro-5.2-win64.zip",
             "hash": "sha256:68036376c94b310b602dbd901f6c0f53894d5ab5608ae219e8008aaad4ef2aaf",
-            "extract_dir": "thief-pro-5.2-win64",
+            "extract_dir": "thief-pro-5.2-win64"
         },
         "32bit": {
             "url": "https://thief-1253132429.cos.ap-beijing.myqcloud.com/thief/thief-pro-5.2-win32.zip",

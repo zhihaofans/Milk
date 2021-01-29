@@ -5,10 +5,6 @@
     "homepage": "https://github.com/qier222/YesPlayMusic",
     "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.3.2/YesPlayMusic-0.3.2.exe#/dl.7z",
     "hash": "sha256:5a486dc5402b27b3804e22b890d6aa159f03c17e514ad38facc301121c53dfb6",
-    "persist": [
-        "cache",
-        "skin"
-    ],
     "pre_install": [
         "Remove-Item \"$dir\\resources\\app-update.yml\""
     ],
