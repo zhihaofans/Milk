@@ -1,11 +1,11 @@
 {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": ".Net 5 编写的B站（哔哩哔哩）任务工具：每日自动登录、观看、分享、投币视频，获取每日任务的满额经验，轻松升级Level 6，实现自动领取大会员权益、月底自动为自己充电等功能。",
     "homepage": "https://github.com/RayWangQvQ/BiliBiliTool",
     "license": "MIT",
-    "url": "https://github.com/RayWangQvQ/BiliBiliTool/releases/download/1.1.5/bilibili-tool-v1.1.5-win-x86-x64.zip",
+    "url": "https://github.com/RayWangQvQ/BiliBiliTool/releases/download/1.1.6/bilibili-tool-v1.1.6-win-x86-x64.zip",
     "extract_dir": "win-x86-x64",
-    "hash": "sha256:0c1e4dca873efadde6a960fc1f03aafb85c1a3306a28cb2fbdc9dd5d596abe38",
+    "hash": "sha256:a857fcfbc04e6062e7ec39c94e88399491c108f37d09cd9b932ed408f4478c83",
     "persist": [
         "Logs"
     ],
