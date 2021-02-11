@@ -1,10 +1,10 @@
 {
-    "version": "1.1.8-20210125",
+    "version": "1.1.9-20210111",
     "description": "Maya是一款体积小巧、简单易用的快速启动工具。",
     "license": "MIT",
     "homepage": "https://github.com/25H/Maya/",
-    "url": "https://github.com/25H/Maya/releases/download/1.1.8/Maya.1.1.8-20210125.zip",
-    "hash": "sha256:5a486dc5402b27b3804e22b890d6aa159f03c17e514ad38facc301121c53dfb6",
+    "url": "https://github.com/25H/Maya/releases/download/1.1.9/Maya.1.1.9-20210111.zip",
+    "hash": "sha256:d24bf30ff8c1f2de35789fb8357b95ba4d9df6dbc1fab91f8f47b81da427b6d4",
     "persist": [
         "cache",
         "skin"
