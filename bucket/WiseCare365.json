@@ -14,7 +14,7 @@
     "shortcuts": [
         [
             "WiseCare365.exe",
-            "WiseCare365 (Portable)"
+            "WiseCare365"
         ]
     ],
     "post_install": [
