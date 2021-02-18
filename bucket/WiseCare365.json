@@ -1,0 +1,24 @@
+{
+    "version": "5.6.3.559",
+    "description": "Clean registry and junk files from your PCs.",
+    "homepage": "https://www.wisecleaner.com/wise-care-365.html",
+    "url": "https://downloads.wisecleaner.com/soft/WiseCare365_5.6.3.559.zip",
+    "hash": "sha256:6e529c755329db8c936c4d72d797c235e3ea98815a514619af7feff2d7d20502",
+    "bin": [
+        [
+            "WiseCare365.exe",
+            "WiseCare365"
+        ]
+    ],
+    "extract_dir": "Wise Care 365",
+    "shortcuts": [
+        [
+            "WiseCare365.exe",
+            "WiseCare365 (Portable)"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\AutoUpdate.exe\"",
+        "Remove-Item \"$dir\\UninstallTP.exe\""
+    ]
+}
