@@ -67,6 +67,16 @@
         "url": "https://code.visualstudio.com/sha?build=stable",
         "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
     },
+    "installer": {
+        "script": [
+            "regedit \/s \"$dir\\install-context.reg\""
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "regedit \/s \"$dir\\uninstall-context.reg\""
+        ]
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
