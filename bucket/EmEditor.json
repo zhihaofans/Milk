@@ -1,7 +1,7 @@
 {
     "version": "20.4.4",
     "description": "EmEditor 是快速，轻巧，可扩展，使用方便的 Windows 文本编辑器。",
-    "homepage": "https://www.syvik.com/multidesk/index.php",
+    "homepage": "https://www.emeditor.com/",
     "architecture": {
         "64bit": {
             "url": "https://emeditor.blob.core.windows.net/emed64_20.4.4_portable.zip",
