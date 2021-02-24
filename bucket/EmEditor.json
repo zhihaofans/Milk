@@ -1,15 +1,15 @@
 {
-    "version": "20.4.4",
+    "version": "20.5.5",
     "description": "EmEditor 是快速，轻巧，可扩展，使用方便的 Windows 文本编辑器。",
     "homepage": "https://www.emeditor.com/",
     "architecture": {
         "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_20.4.4_portable.zip",
-            "hash": "sha256:855d9796935b9e686fcbe57faff5159b51bd8c092ea8b73481b4f8016c43698b"
+            "url": "https://emeditor.blob.core.windows.net/emed64_20.5.5_portable.zip",
+            "hash": "sha256:addfee478f3f2289b4e27e5a5248aefdccb077a66369e656b1f992b463197c38"
         },
         "32bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed32_20.4.4_portable.zip",
-            "hash": "sha256:9dc34ff8ccbefd5126394534199d5d86c968d10e5b7131a8abfb57207d597223"
+            "url": "https://emeditor.blob.core.windows.net/emed32_20.5.5_portable.zip",
+            "hash": "sha256:409a683fd6bd7df7abaa85eb866c9ad4cf42e73f0d3f03959566de71071ce370"
         }
     },
     "persist": [
