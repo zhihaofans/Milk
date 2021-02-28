@@ -18,7 +18,7 @@
     "shortcuts": [
         [
             "NsisoLauncher.exe",
-            "启动NsisoLauncher"
+            "NsisoLauncher"
         ]
     ]
 }
