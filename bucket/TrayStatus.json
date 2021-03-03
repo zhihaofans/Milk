@@ -4,6 +4,7 @@
     "homepage": "https://www.traystatus.com/",
     "url": "https://binaryfortressdownloads.com/Download/BFSFiles/114/TrayStatus-4.4.zip",
     "hash": "sha256:3bc5321ff4b691e7ed4679e074dc049d2d2a8fc524e3fd7f49a6d738f8cb8a15",
+    "extract_dir": "TrayStatus",
     "bin": [
         [
             "TrayStatus.exe",
