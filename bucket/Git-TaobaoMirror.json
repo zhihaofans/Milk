@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.30.2.windows.1/PortableGit-2.30.2-32-bit.7z.exe#/dl.7z",
-            "hash": "sha256:8b203531c91d3f9075aa3ef1e89b0d6e5d18aa289c3bc485e093c9bfb860a116
+            "hash": "sha256:8b203531c91d3f9075aa3ef1e89b0d6e5d18aa289c3bc485e093c9bfb860a116"
         }
     },
     "post_install": "git config --global credential.helper manager-core",
