@@ -1,0 +1,23 @@
+{
+    "version": "2.1.15",
+    "description": "真正的云剪贴板工具",
+    "homepage": "https://clipber.com/",
+    "url": "https://dl.clipber.com/windows/copies_2_1_15.zip",
+    "hash": "sha256:19edc00e804b6ddc463279ac10188927e512d52c2115b3ad2d8f982b7d9d3a0d",
+    "shortcuts": [
+        [
+            "clipManager.exe",
+            "Clipber"
+        ]
+    ],
+    "bin": [
+        [
+            "clipManager.exe",
+            "clipManager"
+        ],
+        [
+            "clipManager.exe",
+            "Clipber"
+        ]
+    ]
+}
