@@ -1,18 +1,11 @@
 {
-    "version": "1.2.4",
-    "description": ".Net 5 编写的B站（哔哩哔哩）任务工具：每日自动登录、观看、分享、投币视频，获取每日任务的满额经验，轻松升级Level 6，实现自动领取大会员权益、月底自动为自己充电等功能。",
-    "homepage": "https://github.com/RayWangQvQ/BiliBiliTool",
-    "license": "MIT",
-    "url": "https://github.com/RayWangQvQ/BiliBiliTool/releases/download/1.2.4/bilibili-tool-v1.2.4-net5-dependent.zip",
-    "extract_dir": "net5-dependent",
-    "hash": "sha256:724e020d6775ae347724b3b87c443d3bdfed70fc2041e6cbba41a46fcdbd5541",
-    "persist": [
-        "Logs"
-    ],
-    "shortcuts": [
-        [
-            "start.bat",
-            "启动 BiliBiliTool精简版"
-        ]
-    ]
+  "version": "1.2.5",
+  "description": ".Net 5 编写的B站（哔哩哔哩）任务工具：每日自动登录、观看、分享、投币视频，获取每日任务的满额经验，轻松升级Level 6，实现自动领取大会员权益、月底自动为自己充电等功能。",
+  "homepage": "https://github.com/RayWangQvQ/BiliBiliTool",
+  "license": "MIT",
+  "url": "https://github.com/RayWangQvQ/BiliBiliTool/releases/download/1.2.5/bilibili-tool-v1.2.5-net5-dependent.zip",
+  "extract_dir": "net5-dependent",
+  "hash": "sha256:86dc927bf99199877b6fc5cc9f7928d5c8404d67124f150b699d1f9a76e31351",
+  "persist": ["Logs"],
+  "shortcuts": [["start.bat", "启动 BiliBiliTool精简版"]]
 }
