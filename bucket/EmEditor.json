@@ -1,31 +1,18 @@
 {
-    "version": "20.5.5",
-    "description": "EmEditor 是快速，轻巧，可扩展，使用方便的 Windows 文本编辑器。",
-    "homepage": "https://www.emeditor.com/",
-    "architecture": {
-        "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_20.5.5_portable.zip",
-            "hash": "sha256:addfee478f3f2289b4e27e5a5248aefdccb077a66369e656b1f992b463197c38"
-        },
-        "32bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed32_20.5.5_portable.zip",
-            "hash": "sha256:409a683fd6bd7df7abaa85eb866c9ad4cf42e73f0d3f03959566de71071ce370"
-        }
+  "version": "20.6.906",
+  "description": "EmEditor is a fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
+  "homepage": "https://www.emeditor.com/",
+  "architecture": {
+    "64bit": {
+      "url": "https://emeditor.blob.core.windows.net/emed64_20.6.906_portable.zip",
+      "hash": "sha256:51811de8df8a775ddc62a2d631019509c0b29a1417f2134623e0d4de1ce09088"
     },
-    "persist": [
-        "PlugIns",
-        "eeUselni.ini"
-    ],
-    "bin": [
-        [
-            "EmEditor.exe",
-            "EmEditor"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "EmEditor.exe",
-            "Emurasoft EmEditor"
-        ]
-    ]
+    "32bit": {
+      "url": "https://emeditor.blob.core.windows.net/emed32_20.6.906_portable.zip",
+      "hash": "sha256:6ae34794a570b72da59c7b23713b8df167f0e9772f1409841e3408d730d48d06"
+    }
+  },
+  "persist": ["PlugIns"],
+  "bin": [["EmEditor.exe", "EmEditor"]],
+  "shortcuts": [["EmEditor.exe", "Emurasoft EmEditor"]]
 }
