@@ -1,20 +1,10 @@
 {
-    "version": "0.10.4",
-    "description": "a CLI tool to serve files and dirs over HTTP",
-    "license": "MIT",
-    "homepage": "https://github.com/svenstaro/miniserve",
-    "url": "https://github.com/svenstaro/miniserve/releases/download/v0.10.4/miniserve-v0.10.4-windows-x86_64.exe#/miniserve.exe",
-    "hash": "sha256:1d8d148a39f8a1af30ca270251aa7a999ba30c474bbfc79274399cf5b293403f",
-    "shortcuts": [
-        [
-            "miniserve.exe",
-            "Miniserve"
-        ]
-    ],
-    "bin": [
-        [
-            "miniserve.exe",
-            "miniserve"
-        ]
-    ]
+  "version": "0.13.0",
+  "description": "a CLI tool to serve files and dirs over HTTP",
+  "license": "MIT",
+  "homepage": "https://github.com/svenstaro/miniserve",
+  "url": "https://github.com/svenstaro/miniserve/releases/download/v0.13.0/miniserve-v0.13.0-x86_64-pc-windows-msvc.exe#/miniserve.exe",
+  "hash": "sha256:8a98868244036b7a27362c045414aae49741b38e5e969c54b372f8b09437527e",
+  "shortcuts": [["miniserve.exe", "Miniserve"]],
+  "bin": [["miniserve.exe", "miniserve"]]
 }
