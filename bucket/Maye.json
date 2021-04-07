@@ -1,25 +1,12 @@
 {
-    "version": "1.2.2-20210307",
-    "description": "Maye(原Maya)是一款体积小巧、简单易用的快速启动工具。",
-    "license": "MIT",
-    "homepage": "https://github.com/25H/Maya/",
-    "url": "https://github.com/25H/Maya/releases/download/1.2.2/Maye.1.2.2-20210307.zip",
-    "notes": "注意：v1.2.1起改名为Maye",
-    "hash": "sha256:28988daa49c2360c5912c5060fa31a721afeeac627b300266d6b868bf6bfcc6b",
-    "persist": [
-        "cache",
-        "skin"
-    ],
-    "shortcuts": [
-        [
-            "Maye.exe",
-            "Maye（原Maya）"
-        ]
-    ],
-    "bin": [
-        [
-            "Maye.exe",
-            "Maye"
-        ]
-    ]
+  "version": "1.2.3-20210401",
+  "description": "Maye(原Maya)是一款体积小巧、简单易用的快速启动工具。",
+  "license": "MIT",
+  "homepage": "https://github.com/25H/Maya/",
+  "url": "https://github.com/25H/Maya/releases/download/1.2.3/Maye.1.2.3-20210401.zip",
+  "notes": "注意：v1.2.1起改名为Maye",
+  "hash": "sha256:b77b7c6d5fb90554b43b89ca6a47c69ddab02661d07f9eede59aed2a3bd055cb",
+  "persist": ["cache"],
+  "shortcuts": [["Maye.exe", "Maye"]],
+  "bin": [["Maye.exe", "Maye"]]
 }
