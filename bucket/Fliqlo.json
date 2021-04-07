@@ -1,20 +1,10 @@
 {
-    "version": "1.4",
-    "description": "Fliqlo for Windows is a clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock.",
-    "homepage": "https://www.syvik.com/multidesk/index.php",
-    "url": "https://fliqlo.com/download/FliqloScr.zip",
-    "hash": "sha256:c21c150c781befeab6d50a45167169255bc6813d3da367fb185c8d7b99567780",
-    "extract_dir": "Fliqlo Screensaver",
-    "bin": [
-        [
-            "Fliqlo.exe",
-            "fliqlo"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Fliqlo.exe",
-            "Fliqlo Screensaver"
-        ]
-    ]
+  "version": "1.4",
+  "description": "Fliqlo for Windows is a clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock.",
+  "homepage": "https://fliqlo.com/",
+  "url": "https://fliqlo.com/download/FliqloScr.zip",
+  "hash": "sha256:c21c150c781befeab6d50a45167169255bc6813d3da367fb185c8d7b99567780",
+  "extract_dir": "Fliqlo Screensaver",
+  "bin": [["Fliqlo.exe", "fliqlo"]],
+  "shortcuts": [["Fliqlo.exe", "Fliqlo Screensaver"]]
 }
