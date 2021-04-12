@@ -1,10 +1,10 @@
 {
-  "version": "1.21.14-121145",
+  "version": "1.21.15-12115",
   "description": "亦搜，亦看，亦闻。manga&novel reader, audio&video player in one app developed by flutter",
   "homepage": "https://github.com/mabDc/eso",
-  "url": "https://github.com/mabDc/eso/releases/download/ESO-1.21.14-121145/eso.windows.zip",
+  "url": "https://github.com/mabDc/eso/releases/download/ESO-1.21.15-12115/eso.windows.zip",
   "extract_dir": "eso.windows",
-  "hash": "sha256:f0146b770cbb073969f5425c8a0db041fe95ba4dab00c7f66585f412903533d6",
+  "hash": "sha256:b2a617a04b9813cdc94d275ae5528d145009cccdb9159364e21d1b344d903b2b",
   "bin": ["eso.exe"],
   "shortcuts": [["eso.exe", "ESO"]]
 }
