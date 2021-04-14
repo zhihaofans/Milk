@@ -1,13 +1,28 @@
 {
-  "version": "0.0.8",
-  "description": "A .NET Framework based GUI Proxy For Windows",
+  "version": "1.0.0",
+  "description": "A .NET Framework based GUI Proxy For Windows ",
   "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
-  "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v0.0.8/CDF-v0.0.8.7z",
-  "extract_dir": "Clash .NET Framework",
-  "hash": "sha256:3c5093f2b750ec3f15e5e21de0cd64abb5a4b67bd579fa371104e5e5cbab2da1",
+  "extract_dir": "Clash .NET",
+  "notes": "This software require three fonts to work normally. Open font files (*.otf) in dir to install it",
+  "architecture": {
+    "64bit": {
+      "url": [
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x64.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Fonts.7z"
+      ],
+      "hash": "sha256:056d01709751b90ee728845cb2343f274711736ab4ef5ba17d6064ebce5e0eaf"
+    },
+    "32bit": {
+      "url": [
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x86.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Fonts.7z"
+      ],
+      "hash": "sha256:6c8a9a3d1531e2d913382611d7e4992df8d86e3dda0016f47c51329611a55605"
+    }
+  },
   "bin": [
-    ["ClashDotNetFramework.exe", "ClashDotNetFramework"],
-    ["ClashDotNetFramework.exe", "CDF"]
+    ["ClashDotNet.exe", "ClashDotNet"],
+    ["ClashDotNet.exe", "CDN"]
   ],
-  "shortcuts": [["ClashDotNetFramework.exe", "Clash .NET Framework"]]
+  "shortcuts": [["ClashDotNet.exe", "Clash .NET"]]
 }
