@@ -1,23 +1,30 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A .NET Framework based GUI Proxy For Windows ",
   "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
-  "extract_dir": "Clash .NET",
   "notes": "This software require three fonts to work normally. Open font files (*.otf) in dir to install it",
   "architecture": {
     "64bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x64.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Fonts.7z"
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Clash.NET.1.0.1-x64.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Fonts.7z"
       ],
-      "hash": "sha256:056d01709751b90ee728845cb2343f274711736ab4ef5ba17d6064ebce5e0eaf"
+      "hash": [
+        "sha256:97937c4e94826b248b8787dc141963ea6dc3cdc8daddc46eca7c75a06ef073f5",
+        "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f"
+      ],
+      "extract_dir": "Clash .NET 1.0.1"
     },
     "32bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x86.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Fonts.7z"
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Clash.NET.1.0.1-x86.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Fonts.7z"
       ],
-      "hash": "sha256:6c8a9a3d1531e2d913382611d7e4992df8d86e3dda0016f47c51329611a55605"
+      "hash": [
+        "sha256:c3691cae9ab7f43e7c85650a435b42e167984c4d7c9202f552132e9ef86607a8",
+        "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f"
+      ],
+      "extract_dir": "Clash.NET.1.0.1.x86"
     }
   },
   "bin": [
