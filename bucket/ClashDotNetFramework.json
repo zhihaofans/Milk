@@ -14,7 +14,7 @@
         "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.2/windowsdesktop-runtime-5.0.5-win-x64.exe"
       ],
       "hash": [
-        "sha256:97937c4e94826b248b8787dc141963ea6dc3cdc8daddc46eca7c75a06ef073f5",
+        "sha256:cf8a16143705e389b749a9391218fec05113e8b439c678464e8d874304d27c71",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha256:d42e8cb57e79f24793a26849ead16326a4cfd0b43f215a3dfcb5c4d32e5b1716"
       ],
@@ -27,7 +27,7 @@
         "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.2/windowsdesktop-runtime-5.0.5-win-x86.exe"
       ],
       "hash": [
-        "sha256:c3691cae9ab7f43e7c85650a435b42e167984c4d7c9202f552132e9ef86607a8",
+        "sha256:a65cfec85c1793b00088ad632b59e489eeabace99da1a36bce7706187dbeeff8",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha256:f0e10120b18da7ca6e9dcd18f96795c5b86e98717e2e283af915a3bb262000f5"
       ],
