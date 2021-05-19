@@ -1,9 +1,9 @@
 {
-    "version": "4.4",
+    "version": "4.5",
     "description": "TrayStatus shows you the status of keyboard keys like Caps Lock, Num Lock, Scroll Lock, Alt, Ctrl, and more, right in your system tray.",
     "homepage": "https://www.traystatus.com/",
-    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/114/TrayStatus-4.4.zip",
-    "hash": "sha256:3bc5321ff4b691e7ed4679e074dc049d2d2a8fc524e3fd7f49a6d738f8cb8a15",
+    "url": "https://binaryfortressdownloads.com/Download/BFSFiles/114/TrayStatus-4.5.zip",
+    "hash": "sha256:69c4078ddc7d64223f368f2bc86477d6a8e74e7c9b133a5a5614e7a468334570",
     "extract_dir": "TrayStatus",
     "bin": [
         [
