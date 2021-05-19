@@ -1,18 +1,22 @@
 {
-  "version": "20.6.906",
+  "version": "20.7.1",
   "description": "EmEditor is a fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
   "homepage": "https://www.emeditor.com/",
   "architecture": {
     "64bit": {
-      "url": "https://emeditor.blob.core.windows.net/emed64_20.6.906_portable.zip",
-      "hash": "sha256:51811de8df8a775ddc62a2d631019509c0b29a1417f2134623e0d4de1ce09088"
+      "url": "https://emeditor.blob.core.windows.net/emed64_20.7.1_portable.zip",
+      "hash": "sha256:57fe38188fed0c7c724128650a86f33a17da10f756c52a4556d6d87f06618b04"
     },
     "32bit": {
-      "url": "https://emeditor.blob.core.windows.net/emed32_20.6.906_portable.zip",
-      "hash": "sha256:6ae34794a570b72da59c7b23713b8df167f0e9772f1409841e3408d730d48d06"
+      "url": "https://emeditor.blob.core.windows.net/emed32_20.7.1_portable.zip",
+      "hash": "sha256:e58f8f42e469d45288ee5e0bc2223bd82e8fbc868d31a4e808097a94dd30a091"
     }
   },
   "persist": ["PlugIns"],
-  "bin": [["EmEditor.exe", "EmEditor"]],
-  "shortcuts": [["EmEditor.exe", "Emurasoft EmEditor"]]
+  "bin": [
+    ["EmEditor.exe", "EmEditor"]
+  ],
+  "shortcuts": [
+    ["EmEditor.exe", "Emurasoft EmEditor"]
+  ]
 }
