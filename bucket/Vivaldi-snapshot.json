@@ -1,16 +1,16 @@
 {
-  "version": "3.8.2238.3",
+  "version": "3.9.2289.3",
   "description": "An innovatively designed web browser, based on Blink, for users in Vivaldi.net community that replaced departed My Opera.",
   "homepage": "https://vivaldi.com/blog/desktop/snapshots/",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://downloads.vivaldi.com/snapshot/Vivaldi.3.8.2238.3.x64.exe#/dl.7z",
-      "hash": "sha256:fe156a71efccfb942549b4239d9e6183fdcaf8868386c15773cf5039a0444cb4"
+      "url": "https://downloads.vivaldi.com/snapshot/Vivaldi.3.9.2289.3.x64.exe#/dl.7z",
+      "hash": "sha256:38aadda0e94a054a4f879aae849d709ac90723c06dbc2188baf9c61433220c56"
     },
     "32bit": {
-      "url": "https://downloads.vivaldi.com/snapshot/Vivaldi.3.8.2238.3.exe#/dl.7z",
-      "hash": "sha256:98b1fae2ea3b80caa14353661c1c768f51caacdac444e6c23a98a716aad15458"
+      "url": "https://downloads.vivaldi.com/snapshot/Vivaldi.3.9.2289.3.exe#/dl.7z",
+      "hash": "sha256:3869694cc5bb0352f7512f7bfd386c05c098603f111ec2729c9b5e6668cdd8bf"
     }
   },
   "installer": {
@@ -21,7 +21,9 @@
     ]
   },
   "bin": "Application\\vivaldi.exe",
-  "shortcuts": [["Application\\vivaldi.exe", "Vivaldi (Snapshot)"]],
+  "shortcuts": [
+    ["Application\\vivaldi.exe", "Vivaldi (Snapshot)"]
+  ],
   "persist": "User Data",
   "autoupdate": {
     "architecture": {
