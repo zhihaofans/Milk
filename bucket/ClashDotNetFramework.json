@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "description": "A .NET Framework based GUI Proxy For Windows ",
+  "version": "1.0.4",
+  "description": "A .NET Framework based GUI Proxy For Windows",
   "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
   "notes": [
     "1.This software require three fonts to work normally. Open font files (*.otf) in dir to install it",
@@ -9,34 +9,36 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Clash.NET.1.0.3.x64.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Fonts.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/windowsdesktop-runtime-5.0.5-win-x64.exe"
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Fonts.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/windowsdesktop-runtime-5.0.5-win-x64.exe"
       ],
       "hash": [
-        "sha256:a1e2e4d8e57484aa62d7fd4cb9eefa9467a7402e0f7a232fd9d35d8f7e2cd50c",
+        "sha256:880a147b86f0483f5121855250562831d1c8e5a789a0181a202620c9e70a6e28",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha256:d42e8cb57e79f24793a26849ead16326a4cfd0b43f215a3dfcb5c4d32e5b1716"
       ],
-      "extract_dir": "Clash .NET 1.0.3"
+      "extract_dir": "Clash .NET 1.0.4"
     },
     "32bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Clash.NET.1.0.3.x86.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Fonts.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/windowsdesktop-runtime-5.0.5-win-x86.exe"
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x86.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Fonts.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/windowsdesktop-runtime-5.0.5-win-x86.exe"
       ],
       "hash": [
-        "sha256:d81869c02cfa2765e889d8cafe4731ce8f07488928953b1903b7725b048bc3ec",
+        "sha256:b561fe196a95039ea6222f8b99ec8e0161b1573cc0d74d72fe76903f10be8bb8",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha256:f0e10120b18da7ca6e9dcd18f96795c5b86e98717e2e283af915a3bb262000f5"
       ],
-      "extract_dir": "Clash.NET.1.0.3.x86"
+      "extract_dir": "Clash.NET.1.0.4.x86"
     }
   },
   "bin": [
     ["ClashDotNet.exe", "ClashDotNet"],
     ["ClashDotNet.exe", "CDN"]
   ],
-  "shortcuts": [["ClashDotNet.exe", "Clash .NET"]]
+  "shortcuts": [
+    ["ClashDotNet.exe", "Clash .NET"]
+  ]
 }
