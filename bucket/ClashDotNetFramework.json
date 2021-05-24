@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4-dotnet506",
+  "version": "1.1.0-dotnet506",
   "description": "A .NET Framework based GUI Proxy For Windows",
   "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
   "notes": [
@@ -9,29 +9,29 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Fonts.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.0/Clash.NET.1.1.0.x64.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.0/Fonts.7z",
         "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/5.0.6/windowsdesktop-runtime-5.0.6-win-x64.exe#/windowsdesktop-runtime.exe"
       ],
       "hash": [
-        "sha256:880a147b86f0483f5121855250562831d1c8e5a789a0181a202620c9e70a6e28",
+        "sha256:a23daa62e3f4316ea8a5c4ddb5df7fa748985b2739b89fbd27ecd5be12630a62",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha512:34b0d43e03b5aaeb987bbc9d6d6ee95b79d97587fecf39d8b8b653618cec4d8741c8d31c270662a0c8b59a18344be2a44b7c38e525505270b264d7dcc856761c"
       ],
-      "extract_dir": "Clash .NET 1.0.4"
+      "extract_dir": "Clash .NET 1.1.0"
     },
     "32bit": {
       "url": [
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x86.7z",
-        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Fonts.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.0/Clash.NET.1.1.0.x86.7z",
+        "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.0/Fonts.7z",
         "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/5.0.6/windowsdesktop-runtime-5.0.6-win-x64.exe#/windowsdesktop-runtime.exe"
       ],
       "hash": [
-        "sha256:b561fe196a95039ea6222f8b99ec8e0161b1573cc0d74d72fe76903f10be8bb8",
+        "sha256:32f65f6118d0b9d25cf7ca4f6b96d5d08605b16b880d815c14c41557803dbcd4",
         "sha256:ea56dbd2e6575c9e9271f6c76077f51712ba32ea78dd654f4c1831e04459be4f",
         "sha512:83ceb900805a33763df0a16e81f3f3d2a4b576802b335975177d77953bf9f0db60d36f257b2e018fe44440df2b8f8a8c44e767939bd9e4ff21230eb32f34db66"
       ],
-      "extract_dir": "Clash.NET.1.0.4.x86"
+      "extract_dir": "Clash.NET.1.1.0.x86"
     }
   },
   "bin": [
