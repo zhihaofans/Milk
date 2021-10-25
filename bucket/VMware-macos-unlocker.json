@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/DrDonk/unlocker/archive/refs/tags/v3.0.7.zip",
     "hash": "sha256:a351602f49f7d9e47a8dd5ea238762b94501f57fa34e9501ce7afa7381744538",
-    "extract_dir": "unlocker-3.0.6",
+    "extract_dir": "unlocker-3.0.7",
     "shortcuts": [
         [
             "win-install.cmd",
