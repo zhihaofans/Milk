@@ -7,7 +7,7 @@
   "hash": "sha256:faaa9f4d529a05864719ac0ffb6c4170f0c47a60346dc6379d995f3b90199938",
   "extract_dir": "Office Tool",
   "shortcuts": [
-    "Office Tool Plus.exe", "Office Tool Plus"
+    ["Office Tool Plus.exe", "Office Tool Plus(With runtime)"]
   ],
   "persist": "Office"
 }
