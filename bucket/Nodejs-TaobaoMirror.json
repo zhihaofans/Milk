@@ -1,0 +1,30 @@
+{
+    "version": "17.6.0",
+    "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.",
+    "homepage": "https://npm.taobao.org/mirrors/node/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://npm.taobao.org/mirrors/node/v17.6.0/node-v17.6.0-win-x64.7z",
+            "hash": "sha256:3b858acbe24115b93a7a93d4c4d27c0f28c85eb33f440bd74bf07c1c760bb1ec",
+            "extract_dir": "node-v17.6.0-win-x64"
+        },
+        "32bit": {
+            "url": "https://npm.taobao.org/mirrors/node/v17.6.0/node-v17.6.0-win-x86.7z",
+            "hash": "sha256:7198fd3482a528f404c28c74bfdd202a57b138b8ad8911968941ec25761c520d",
+            "extract_dir": "node-v17.6.0-win-x86"
+        }
+    },
+    "persist": [
+        "bin",
+        "cache"
+    ],
+    "env_add_path": [
+        "bin",
+        "."
+    ],
+    "post_install": [
+        "# Set npm prefix to install modules inside bin and npm cache so they persist",
+        "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+    ]
+}
