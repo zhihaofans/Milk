@@ -1,0 +1,30 @@
+{
+    "version": "17.7.2",
+    "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.",
+    "homepage": "https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v17.7.2/node-v17.7.2-win-x64.7z",
+            "hash": "sha256:b6b7afc9a998d4960767622674df89c56ce52e8966ee7852abefa3f2a637884d",
+            "extract_dir": "node-v17.7.2-win-x64"
+        },
+        "32bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v17.7.2/node-v17.7.2-win-x64.7z",
+            "hash": "sha256:88a4747577d06f52b4fe0e92a674a1844abd0a62f06cd97c0a95e731ae66f5c9",
+            "extract_dir": "node-v17.7.2-win-x86"
+        }
+    },
+    "persist": [
+        "bin",
+        "cache"
+    ],
+    "env_add_path": [
+        "bin",
+        "."
+    ],
+    "post_install": [
+        "# Set npm prefix to install modules inside bin and npm cache so they persist",
+        "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+    ]
+}
