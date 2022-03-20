@@ -1,18 +1,18 @@
 {
-    "version": "17.7.0",
+    "version": "17.7.2",
     "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.",
     "homepage": "https://npm.taobao.org/mirrors/node/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v17.7.0/node-v17.7.0-win-x64.7z",
-            "hash": "sha256:79ef62c09e06d3915587f815062533428b2f79f83e1280c60cf6d369cfa8f8f5",
-            "extract_dir": "node-v17.7.0-win-x64"
+            "url": "https://npm.taobao.org/mirrors/node/v17.7.2/node-v17.7.2-win-x64.7z",
+            "hash": "sha256:b6b7afc9a998d4960767622674df89c56ce52e8966ee7852abefa3f2a637884d",
+            "extract_dir": "node-v17.7.2-win-x64"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v17.7.0/node-v17.7.0-win-x86.7z",
-            "hash": "sha256:97adc762e35418a0e6bb2f42117d8186bd43e66f7000509e8eed938206939753",
-            "extract_dir": "node-v17.7.0-win-x86"
+            "url": "https://npm.taobao.org/mirrors/node/v17.7.2/node-v17.7.2-win-x86.7z",
+            "hash": "sha256:88a4747577d06f52b4fe0e92a674a1844abd0a62f06cd97c0a95e731ae66f5c9",
+            "extract_dir": "node-v17.7.2-win-x86"
         }
     },
     "persist": [
