@@ -1,18 +1,18 @@
 {
-    "version": "7.2.2",
+    "version": "7.2.3",
     "description": "PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language. Unlike most shells, which accept and return text, PowerShell is built on top of the .NET Common Language Runtime (CLR), and accepts and returns .NET objects. This fundamental change brings entirely new tools and methods for automation.",
     "license": "MIT",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "notes": "You can remove installer with 'scoop uninstall PowerShell-installer'",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.2/PowerShell-7.2.2-win-x64.msi#/PowerShell-win.msi.exe",
-            "hash": "sha256:447B49FB3DEAF1D1B632711A48978F18AE43F0A2FE4CDBA007218026A6E39010"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.3/PowerShell-7.2.3-win-x64.msi#/PowerShell-win.msi.exe",
+            "hash": "sha256:64641608A24D21767A36CA5DD09D157B507847FDFF620D61B80A14709518352B"
 
         },
         "32bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.2/PowerShell-7.2.2-win-x86.msi#/PowerShell-win.msi.exe",
-            "hash": "sha256:C97BCE05770D85EBA7CF5EC2E129CDF4C10C1AD2457891E350302A9F24508F7A"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.3/PowerShell-7.2.3-win-x86.msi#/PowerShell-win.msi.exe",
+            "hash": "sha256:79ef62c09e06d3915587f815062533428b2f79f83e1280c60cf6d369cfa8f8f5"
         }
     },
     "post_install": [
