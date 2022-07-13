@@ -1,16 +1,16 @@
 {
   "version": "16.16.0",
   "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.",
-  "homepage": "https://npm.taobao.org/mirrors/node/",
+  "homepage": "https://registry.npmmirror.com/binary.html?path=node/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://npm.taobao.org/mirrors/node/v16.16.0/node-v16.16.0-win-x64.7z",
+      "url": "https://registry.npmmirror.com/-/binary/node/v16.16.0/node-v16.16.0-win-x64.7z",
       "hash": "sha256:cfe9ba47f32dd2c667078ed175e76cad1d00bd4ea9f915219ead81d2cfca3c34",
       "extract_dir": "node-v16.16.0-win-x64"
     },
     "32bit": {
-      "url": "https://npm.taobao.org/mirrors/node/v16.16.0/node-v16.16.0-win-x86.7z",
+      "url": "https://registry.npmmirror.com/-/binary/node/v16.16.0/node-v16.16.0-win-x86.7z",
       "hash": "sha256:a933c0f78bc653dfba11df49c476e90e7ed2492f34319d74bf7de2b21f8943d8",
       "extract_dir": "node-v16.16.0-win-x86"
     }

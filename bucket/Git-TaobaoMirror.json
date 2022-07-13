@@ -1,15 +1,15 @@
 {
   "version": "2.37.1.windows.1",
   "description": "Distributed version control system",
-  "homepage": "https://npm.taobao.org/mirrors/git-for-windows/",
+  "homepage": "https://registry.npmmirror.com/binary.html?path=git-for-windows/",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.37.1.windows.1/PortableGit-2.37.1-64-bit.7z.exe#/dl.7z",
+      "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.1.windows.1/PortableGit-2.37.1-64-bit.7z.exe#/dl.7z",
       "hash": "sha256:b0bc403bb03326b835e239b3bf7c0af277f43eba5421132dc8531204c78b6b25"
     },
     "32bit": {
-      "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.37.1.windows.1/PortableGit-2.37.1-32-bit.7z.exe#/dl.7z",
+      "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.1.windows.1/PortableGit-2.37.1-32-bit.7z.exe#/dl.7z",
       "hash": "sha256:1a32f1de26d52ef866f27db395d8ab6bd9dc4c53bfc0161937b20f8749b4d96b"
     }
   },
