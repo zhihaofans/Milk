@@ -1,0 +1,15 @@
+{
+  "version": "7.10.2",
+  "description": "AdGuard is a unique desktop program that has all the necessary features for the best web experience.",
+  "homepage": "https://adguard.com/adguard-windows/overview.html",
+  "notes": [
+    "1.You can remove installer with 'scoop uninstall AdguardForWindows-lastest-installer' after installation",
+    "2.你可以在完成安装后输入'scoop uninstall AdguardForWindows-lastest-installer'来移除安装程序"
+  ],
+  "url": "https://github.com/AdguardTeam/AdguardForWindows/releases/download/v7.10.2/AdGuard-7.10.2.exe#/AdGuard.exe",
+  "hash": "sha256:8f43832cf2688181f92719d53a700a0a1fe7f6736a34d6b1acdcbeb431b8e8c1",
+  "shortcuts": [
+    ["AdGuard.exe", "Install Adguard For Windows"]
+  ],
+  "post_install": ["&\"$dir\\AdGuard.exe\""]
+}
