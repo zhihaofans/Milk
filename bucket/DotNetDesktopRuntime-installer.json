@@ -1,7 +1,7 @@
 {
   "version": "7.0.0",
   "description": "The .NET Desktop Runtime enables you to run existing Windows desktop applications.",
-  "homepage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+  "homepage": "https://dotnet.microsoft.com/download/dotnet/7.0",
   "license": {
     "identifier": "MIT",
     "url": "https://github.com/dotnet/core/blob/master/LICENSE.TXT"
@@ -10,7 +10,7 @@
   "architecture": {
     "64bit": {
       "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.0/windowsdesktop-runtime-7.0.0-win-x64.exe#/windowsdesktop-runtime-win-x64.exe",
-      "hash": "sha512:9d7d71f6d07f58e2691f92f18862b3af884f39ec1e6fa4c0bf1e0d33a5cc00e6cc684ba87f432a3bb6db74be8fc6ff46571b7adc406d4ba01ab260560eb4ac69",
+      "hash": "sha512:e6281f475a58c8dc7b103d0cfd895e0f27235e25731b473514c82b77d8e555ea294f66ab3e119c5fd38c5a8f18b4a4d8508938d7cff70ab2186b47417349ea1e",
       "shortcuts": [
         [
           "windowsdesktop-runtime-win-x64.exe",
