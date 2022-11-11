@@ -5,7 +5,6 @@
     "license": "MIT",
     "url": "https://github.com/DrDonk/unlocker/releases/download/v4.2.3/unlocker423.zip",
     "hash": "sha256:29aab76a5bae00fb6b0fe276008eb22ce8c6cef06c545d61cc9d9e30c980ab9b",
-    "extract_dir": "unlocker-4.2.3",
     "shortcuts": [
         [
             "windows/unlock.exe",
