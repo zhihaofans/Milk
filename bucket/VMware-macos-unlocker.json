@@ -1,18 +1,18 @@
 {
-    "version": "3.0.7",
+    "version": "4.2.3",
     "description": "macOS Unlocker for VMware Workstation",
     "homepage": "https://github.com/DrDonk/unlocker",
     "license": "MIT",
-    "url": "https://github.com/DrDonk/unlocker/archive/refs/tags/v3.0.7.zip",
-    "hash": "sha256:a351602f49f7d9e47a8dd5ea238762b94501f57fa34e9501ce7afa7381744538",
-    "extract_dir": "unlocker-3.0.7",
+    "url": "https://github.com/DrDonk/unlocker/releases/download/v4.2.3/unlocker423.zip",
+    "hash": "sha256:29aab76a5bae00fb6b0fe276008eb22ce8c6cef06c545d61cc9d9e30c980ab9b",
+    "extract_dir": "unlocker-4.2.3",
     "shortcuts": [
         [
-            "win-install.cmd",
+            "windows/unlock.exe",
             "install macOS Unlocker for VMware"
         ],
         [
-            "win-uninstall.cmd",
+            "windows/relock.exe",
             "uninstall macOS Unlocker for VMware"
         ]
     ]
