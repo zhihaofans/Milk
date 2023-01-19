@@ -1,16 +1,16 @@
 {
-  "version": "1.6.3",
+  "version": "1.6.6",
   "description": "sandboxie is sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems.",
   "homepage": "https://github.com/sandboxie-plus/Sandboxie",
   "notes": "You can remove installers with 'scoop uninstall Sandboxie-Plus-installer' after installation",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.6.3/Sandboxie-Plus-x64-v1.6.3.exe#/Sandboxie-Plus-installer.exe",
-      "hash": "sha256:84c9f3fff4259bc5b275c2825add761e03d47be96418163ae8c8c3ef8cf6cb68"
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.6.6/Sandboxie-Plus-x64-v1.6.6.exe#/Sandboxie-Plus-installer.exe",
+      "hash": "sha256:4dbbfc2587510c560e4160917085d23feab7b842124bce9f6d6dcda96c6c555e"
     },
     "32bit": {
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.6.3/Sandboxie-Plus-x86-v1.6.3.exe#/Sandboxie-Plus-installer.exe",
-      "hash": "sha256:a37b8f3cc5a5a08e721a9e7511066bbfe44dc063964409228f2326afe36256c8"
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.6.6/Sandboxie-Plus-x86-v1.6.6.exe#/Sandboxie-Plus-installer.exe",
+      "hash": "sha256:7880114c8d507c60a665c1bb7264991b55e1e095071da189a1267af436a5443c"
     }
   },
   "shortcuts": [
