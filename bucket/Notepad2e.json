@@ -1,13 +1,21 @@
 {
-    "version": "R134",
+    "version": "R276",
     "description": "Notepad 2e is a fork of Notepad2 by Florian Balmer",
     "homepage": "https://github.com/ProgerXP/Notepad2e",
     "license": {
         "identifier": "Unknown",
         "url": "https://github.com/ProgerXP/Notepad2e/blob/master/LICENSE"
     },
-    "url": "https://github.com/ProgerXP/Notepad2e/releases/download/R134/Notepad2e-R134-ac4b27c-x86.zip",
-    "hash": "sha1:1917CA27CB46BF7F65E153376105BCB7F379C1DD",
+    "architecture": {
+        "64bit": {
+            "url": "https://proger.me/notepad2e/binaries/Notepad2e-R276-c8c5642-x64.zip",
+            "hash": "sha1:21cec698d029cb6c8b902b48c5b6bd46"
+        },
+        "32bit": {
+            "url": "https://proger.me/notepad2e/binaries/Notepad2e-R276-c8c5642-x86.zip",
+            "hash": "sha1:0b83577478a5abefde5e4a2394ae4108"
+        }
+    },
     "shortcuts": [
         [
             "Notepad2e.exe",
