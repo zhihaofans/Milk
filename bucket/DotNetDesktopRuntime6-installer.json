@@ -27,7 +27,7 @@
       "shortcuts": [
         [
           "windowsdesktop-runtime-win-x86.exe",
-          "Install .NET 6 Desktop Runtime (x64)"
+          "Install .NET 6 Desktop Runtime (x86)"
         ]
       ],
       "post_install": [
