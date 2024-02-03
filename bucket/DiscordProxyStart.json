@@ -2,6 +2,7 @@
   "version": "0.0.8",
   "description": "实验项目，在任意位置运行本项目exe，自动配置并启动添加独立代理的discord",
   "homepage": "https://github.com/aiqinxuancai/DiscordProxyStart/",
+  "shortcuts": [["DiscordProxyStart.exe", "DiscordProxyStart"]],
   "architecture": {
     "64bit": {
       "url": "https://github.com/aiqinxuancai/DiscordProxyStart/releases/download/v0.0.8/DiscordProxyStart-win-amd64.zip",
