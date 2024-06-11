@@ -14,7 +14,7 @@
             "深蓝词库转换Readme.txt"
         ]
     ],
-    "extract_dir": "publish"
+    "extract_dir": "publish",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter-v$version-windows.zip"
