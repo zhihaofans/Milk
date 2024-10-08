@@ -11,7 +11,7 @@
     },
     "installer": {
         "script":  [
-            "PowerShell -NoLogo -NoProfile -NonInteractive -InputFormat None -ExecutionPolicy Bypass Add-AppxPackage -DeferRegistrationWhenPackagesAreInUse -ForceUpdateFromAnyVersion -Path \"$dir\\NanaZip.msixbundle\" /qn /norestart"
+            "PowerShell -NoLogo -NoProfile -NonInteractive -InputFormat None -ExecutionPolicy Bypass Add-AppxPackage -DeferRegistrationWhenPackagesAreInUse -ForceUpdateFromAnyVersion -Path \"$dir\\NanaZip.msixbundle\""
         ]
     }
 }
