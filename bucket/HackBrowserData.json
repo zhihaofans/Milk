@@ -1,16 +1,16 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.6",
     "description": "hack-browser-data is an open-source tool that could help you decrypt data ( password|bookmark|cookie|history|credit card|downloads link ) from the browser. ",
     "homepage": "https://github.com/moonD4rk/HackBrowserData",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.3/hack-browser-data-windows-64bit.zip",
-            "hash": "sha256:4bbce282aa26a449030a398e4ff5e980137a05d91f205037ac1bb297f3c36513"
+            "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-64bit.zip",
+            "hash": "sha256:57d611717398735e11d600d1b1199a73c3fb349725e699ac97aba1ec47a24fab"
         },
-        "32bit": {
-            "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.3/hack-browser-data-windows-32bit.zip",
-            "hash": "sha256:04c8a0077ac2c4db41e2bba0b7052fb1d0b492a6e301853b3e189223a989e1c7"
+        "arm64": {
+            "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-arm64.zip",
+            "hash": "sha256:e97d6a79a172c3f837c75aa2615dea3ea556aebfdc7ddd5fe28edf920472a829"
         }
     },
     "bin": [
