@@ -28,3 +28,30 @@ jobs:
         run: |
           echo "检测到新发布，执行相应操作"
           # 在此处添加您的操作，例如发送通知或触发部署
+          代码
+        uses: actions/checkout@v3
+
+      - name: 获取 Scoop 应用版本
+        id: scoop_version
+        run: |
+          manifest_url="https://raw.githubusercontent.com/zhihaofans/Milk/main/bucket/Clash.Verge.rev-installer.json"
+          scoop_version=$(curl -s $manifest_url | jq -r '.version')
+          echo "scoop_version=$scoop_version" >> $GITHUB_ENV
+
+      - name: 获取最新发布版本
+        id: latest_release
+        run: |
+          latest_release=$(curl -s https://api.github.com/repos/用户名/仓库名/releases/latest | jq -r '.tag_name')
+          echo "latest_release=$latest_release" >> $GITHUB_ENV
+
+      - name: 比较版本
+        run: |
+          if [ "$(printf '%s\n' "$latest_release" "$scoop_version" | sort -V | head -n1)" != "$latest_release" ]; then
+            echo "检测到新版本：$latest_release"
+            # 在此处添加处理新版本的逻辑，例如发送通知或更新 Scoop 清单文件
+          else
+            echo "Scoop 应用已是最新版本：$scoop_version"
+          fi
+        env:
+          latest_release: ${{ env.latest_release }}
+          scoop_version: ${{ env.scoop_version }}
