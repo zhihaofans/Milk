@@ -14,7 +14,7 @@ jobs:
         run: |
           latest_release=$(curl -s https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest)
           latest_tag=$(echo "$latest_release" | jq -r .tag_name)
-          echo "::set-output name=latest_tag::$latest_tag"
+          echo "latest_tag=$latest_tag" >> $GITHUB_OUTPUT
 
       - name: 检查是否为新发布
         id: check_new_release
