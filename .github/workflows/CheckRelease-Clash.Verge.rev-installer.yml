@@ -13,6 +13,7 @@ jobs:
         id: get_release
         run: |
           latest_release=$(curl -s https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest | jq -r '.tag_name')
+          latest_release="v${latest_release}"  # 在版本前加 "v"
           echo "latest_release=$latest_release" >> $GITHUB_ENV
 
       - name: 获取 Scoop 应用版本
