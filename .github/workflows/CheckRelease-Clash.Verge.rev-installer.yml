@@ -52,6 +52,3 @@ jobs:
           else
             echo "Scoop 应用已是最新版本：$scoop_version"
           fi
-        env:
-          latest_release: ${{ env.latest_release }}
-          scoop_version: ${{ env.scoop_version }}
