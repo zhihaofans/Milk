@@ -2,33 +2,18 @@ name: Check for New Release (CheckRelease-Clash.Verge.rev-installer)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时运行一次
+    - cron: '0 0 * * *'  # 每天运行一次
   workflow_dispatch:     # 手动触发
 
 jobs:
   check_release:
     runs-on: ubuntu-latest
     steps:
-      - name: 获取最新发布信息
+      - name: 获取最新发布版本
         id: get_release
         run: |
-          latest_release=$(curl -s https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest)
-          latest_tag=$(echo "$latest_release" | jq -r .tag_name)
-          echo "latest_release=$latest_release" >> $GITHUB_OUTPUT
-
-      - name: 检查是否为新发布
-        id: check_new_release
-        run: |
-          echo "最新发布的标签是 ${{ steps.get_release.outputs.latest_tag }}"
-          # 在此处添加您的逻辑，例如将最新标签与之前存储的标签进行比较
-
-      # 在检测到新发布时执行的操作
-      - name: 执行操作
-        if: steps.check_new_release.outputs.is_new == 'true'
-        run: |
-          echo "检测到新发布，执行相应操作"
-          # 在此处添加您的操作，例如发送通知或触发部署
-          代码
+          latest_release=$(curl -s https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest | jq -r '.tag_name')
+          echo "latest_release=$latest_release" >> $GITHUB_ENV
 
       - name: 获取 Scoop 应用版本
         id: scoop_version
@@ -36,14 +21,23 @@ jobs:
           manifest_url="https://raw.githubusercontent.com/zhihaofans/Milk/main/bucket/Clash.Verge.rev-installer.json"
           scoop_version=$(curl -s $manifest_url | jq -r '.version')
           echo "scoop_version=$scoop_version" >> $GITHUB_ENV
+
       - name: 比较版本
+        id: check_new_release
         run: |
+          echo "GitHub Release 版本: $latest_release"
+          echo "Scoop 版本: $scoop_version"
+          
           if [ "$(printf '%s\n' "$latest_release" "$scoop_version" | sort -V | head -n1)" != "$latest_release" ]; then
-            echo "检测到新版本：$latest_release"
-            # 在此处添加处理新版本的逻辑，例如发送通知或更新 Scoop 清单文件
+            echo "检测到新版本: $latest_release"
+            echo "is_new=true" >> $GITHUB_ENV
           else
-            echo "Scoop 应用已是最新版本：$scoop_version"
+            echo "Scoop 应用已是最新版本: $scoop_version"
+            echo "is_new=false" >> $GITHUB_ENV
           fi
-        env:
-          latest_release: ${{ env.latest_release }}
-          scoop_version: ${{ env.scoop_version }}
+
+      - name: 执行操作
+        if: env.is_new == 'true'
+        run: |
+          echo "检测到新发布，执行相应操作..."
+          # 这里可以添加通知或自动更新 Scoop 清单的代码
