@@ -29,7 +29,6 @@ jobs:
           echo "检测到新发布，执行相应操作"
           # 在此处添加您的操作，例如发送通知或触发部署
           代码
-        uses: actions/checkout@v3
 
       - name: 获取 Scoop 应用版本
         id: scoop_version
