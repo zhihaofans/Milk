@@ -1,4 +1,4 @@
-name: Check for New Release
+name: Check for New Release (CheckRelease-Clash.Verge.rev-installer)
 
 on:
   schedule:
