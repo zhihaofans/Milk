@@ -46,9 +46,9 @@ jobs:
 
           json_content=$(curl -s $json_url)
 
-          hash_x86_64=$(echo "$json_content" | jq -r '.["windows-x86_64"].signature')
-          hash_aarch64=$(echo "$json_content" | jq -r '.["windows-aarch64"].signature')
-          hash_i686=$(echo "$json_content" | jq -r '.["windows-i686"].signature')
+          hash_x86_64=$(echo "$json_content" | jq -r '.platforms["windows-x86_64"].signature')
+          hash_aarch64=$(echo "$json_content" | jq -r '.platforms["windows-aarch64"].signature')
+          hash_i686=$(echo "$json_content" | jq -r '.platforms["windows-i686"].signature')
 
           echo "hash_x86_64=$hash_x86_64" >> $GITHUB_ENV
           echo "hash_aarch64=$hash_aarch64" >> $GITHUB_ENV
