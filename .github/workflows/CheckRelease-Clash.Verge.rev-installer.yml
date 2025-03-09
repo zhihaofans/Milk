@@ -36,7 +36,7 @@ jobs:
             echo "Scoop 应用已是最新版本: $scoop_version"
             echo "is_new=false" >> $GITHUB_ENV
           fi
-            - name: 测试 GitHub Actions 是否能访问 latest.json
+      - name: 测试 GitHub Actions 是否能访问 latest.json
         run: |
           json_url="https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.1.2/latest.json"
           echo "尝试访问: $json_url"
