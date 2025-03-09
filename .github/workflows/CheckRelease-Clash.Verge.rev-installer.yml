@@ -45,6 +45,7 @@ jobs:
           echo "正在获取: $json_url"
 
           json_content=$(curl -s $json_url)
+          echo "结果: $json_content"
 
           hash_x86_64=$(echo "$json_content" | jq -r '.platforms["windows-x86_64"].signature')
           hash_aarch64=$(echo "$json_content" | jq -r '.platforms["windows-aarch64"].signature')
