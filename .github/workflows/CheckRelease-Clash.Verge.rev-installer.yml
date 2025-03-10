@@ -24,7 +24,6 @@ jobs:
 
           # 使用 curl -L 处理 302 重定向
           json_content=$(curl -s -L $json_url)
-          
           # 调试：打印完整 JSON
           echo "=== latest.json 内容 ==="
           echo "$json_content"
