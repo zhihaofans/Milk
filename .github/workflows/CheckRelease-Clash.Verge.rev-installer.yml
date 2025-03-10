@@ -45,7 +45,7 @@ jobs:
             echo "Error: 无法解析哈希值"
             exit 1
           fi
-          echo "version=$json_version" >> $GITHUB_ENV
+          echo "json_version=$json_version" >> $GITHUB_ENV
           
           echo "hash_x86_64=$hash_x86_64" >> $GITHUB_ENV
           echo "hash_aarch64=$hash_aarch64" >> $GITHUB_ENV
@@ -62,4 +62,4 @@ jobs:
           hash_x86_64: ${{ env.hash_x86_64 }}
           hash_aarch64: ${{ env.hash_aarch64 }}
           hash_i686: ${{ env.hash_i686 }}
-          version: ${{ env.version }}
+          json_version: ${{ env.json_version }}
