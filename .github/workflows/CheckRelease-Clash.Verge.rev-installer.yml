@@ -13,7 +13,7 @@ jobs:
         id: get_release
         run: |
           latest_release=$(curl -s https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases/latest | jq -r '.tag_name')
-          latest_release="v${latest_release}"  # 在版本前加 "v"
+          #latest_release="v${latest_release}"  # 在版本前加 "v"
           echo "latest_release=$latest_release" >> $GITHUB_ENV
 
       - name: 获取 `latest.json` 并提取文件哈希值
@@ -38,19 +38,23 @@ jobs:
           hash_x86_64=$(echo "$json_content" | jq -r '.platforms["windows-x86_64"].signature // empty')
           hash_aarch64=$(echo "$json_content" | jq -r '.platforms["windows-aarch64"].signature // empty')
           hash_i686=$(echo "$json_content" | jq -r '.platforms["windows-i686"].signature // empty')
+          json_version=$(echo "$json_content" | jq -r '.version // empty')
 
           # 确保 hash 不为空
           if [ -z "$hash_x86_64" ] || [ -z "$hash_aarch64" ] || [ -z "$hash_i686" ]; then
             echo "Error: 无法解析哈希值"
             exit 1
           fi
-
+          echo "json_version=$json_version" >> $GITHUB_ENV
+          
           echo "hash_x86_64=$hash_x86_64" >> $GITHUB_ENV
           echo "hash_aarch64=$hash_aarch64" >> $GITHUB_ENV
           echo "hash_i686=$hash_i686" >> $GITHUB_ENV
 
       - name: 显示提取的哈希值
         run: |
+          echo "版本: $json_version"
+          
           echo "Windows x86_64 签名: $hash_x86_64"
           echo "Windows aarch64 签名: $hash_aarch64"
           echo "Windows i686 签名: $hash_i686"
@@ -58,3 +62,4 @@ jobs:
           hash_x86_64: ${{ env.hash_x86_64 }}
           hash_aarch64: ${{ env.hash_aarch64 }}
           hash_i686: ${{ env.hash_i686 }}
+          json_version: ${{ env.json_version }}
